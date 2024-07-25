@@ -1,0 +1,1178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Judson:ital,wght@0,400;0,700;1,400&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    padding: .625rem 1.25rem;
+    width: 100%;
+    height: 10rem;
+    flex-wrap: wrap;
+    background-image: url("../assets/img/Encabezado.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.encabezado p{
+    font-family: "Italianno", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+align-items: center;
+    color: white;
+    font-size: 6rem
+}
+
+.encabezado li {
+    list-style: none;
+    flex-wrap: wrap;
+}
+.encabezado li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+}
+
+
+footer{
+    background-image: url("../assets/img/pie-de-página.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    height: 40rem;
+    flex-wrap: wrap;
+}
+
+
+
+.contActos h2{
+    align-items: left;
+    font-family: "Judson", sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    position: relative;
+    font-size: 3rem;
+    top: 2rem;
+    bottom: -3rem;
+    padding: 20px 30px;
+    flex-wrap: wrap;
+}
+
+.reDes h2{
+    align-items: left;
+    font-family: "Judson", sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    position: relative;
+    font-size: 3rem;
+    top: 2rem;
+    bottom: -3rem;
+    padding: 20px 30px;
+    flex-wrap: wrap;
+}
+.contActos p{
+    align-items: center;
+    font-family: "Judson", sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 20px 50px;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    flex-wrap: wrap;
+}
+
+.contActos img{
+    width: 15%;
+    height: 15%;
+    position: relative;
+    top: 90px;
+    left: 20px;
+    flex-wrap: wrap;
+}
+
+.reDes p{
+    align-items: center;
+    font-family: "Judson", sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 20px 50px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    flex-wrap: wrap;
+}
+
+.reDes img{
+    width: 15%;
+    height: 15%;
+    position: relative;
+    top: 90px;
+    left: 20px;
+    flex-wrap: wrap;
+}
+
+.reDes li{
+    list-style: none;
+}
+
+.naVbar{
+    font-family: "Judson", sans-serif;
+    display: flex;
+    gap: 2rem;
+    font-size: 3rem;
+    padding-top: 2.5rem;
+    flex-wrap: wrap;
+    
+}
+
+.tituloYSubtitulo {
+    font-family: "Judson", sans-serif;
+    font-size: 2.8125rem;
+    font-weight:bolder;
+    color: aliceblue;
+    text-align: right;
+    width: 100%;
+    height: 70rem;
+    
+}
+
+.tituloYSubtitulo img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70rem;
+}
+
+.tituloYSubtitulo h1{
+    font-family: "Judson", sans-serif;
+    font-size: 8.5rem;
+    padding-top: 400px;
+    position: relative;
+    bottom:  70rem;
+    position: relative;
+    right: 2rem;
+    flex-wrap: wrap;
+}
+.tituloYSubtitulo h2{
+    font-family: "Judson", sans-serif;
+    font-size: 4rem;
+    bottom: 70rem;
+    position: relative;
+    right: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.sectionParrafoUno {
+    background-image: url("../assets/img/Group\ 7.png");
+    width: 100%;
+    height: 100rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    flex-wrap: wrap;
+} 
+
+
+
+.sectionParrafoUno h2{
+    font-family: "Judson", sans-serif;
+    font-size: 6.65rem;
+    color: aliceblue;
+    width: 80.5rem;
+    height: 60rem;
+    position: relative;
+    left: 2.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    flex-wrap: wrap;
+}
+
+
+.parrAfouno {
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 5rem;
+    text-align: left;
+    font-weight: bolder;
+    display: flex;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.442);
+    width: 38%;
+    height: 30rem;
+    position: relative;
+    bottom: 40rem;
+    left: 3rem;
+    padding: 20px 40px;
+    border-radius:2rem;
+    flex-wrap: wrap;
+}
+
+.parrAfodos{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 5rem;
+    text-align: left;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.442);
+    width: 38%;
+    height: 25rem;
+    position: relative;
+    bottom: 30rem;
+    left: 3rem;
+    padding: 20px 40px;
+    border-radius:2rem;
+    flex-wrap: wrap;
+}
+
+
+.conFiarr {
+
+    background-image: url("../assets/img/Rectangle 33.png");
+    width: 100%;
+    height: 98rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.conFiarr h2{
+    font-family: "Judson", sans-serif;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.611);
+    text-align: center;
+    font-size: 6.5rem;
+    width: 100%;
+    height: 17rem;
+    border-radius: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    bottom: 150px;
+    flex-wrap: wrap;
+
+}
+.conFiarr2 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    top: 230px;
+flex-wrap: wrap;
+}
+
+
+.conFiar p{
+    position: relative;
+    top: 5rem;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    color: aliceblue;
+    width: 27rem;
+    height: 17rem;
+    text-align: left ;
+    background-color: rgba(0, 0, 0, 0.611);
+    border-radius: 2rem;
+    padding: 20px 38px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+.soMos {
+    background-image: url("../assets/img/perroconchabon.JPG");
+    width: 100%;
+    height: 120rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    flex-wrap: wrap;
+}
+
+.soMos h2{
+    font-family: "Judson", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 13rem;
+    position: relative;
+    top: 10rem;
+    flex-wrap: wrap;
+}
+
+.soMos h3{
+    font-family: "Judson", sans-serif;
+    color: aliceblue;
+    font-size: 6rem;
+    text-align: center;
+    position: relative;
+    top: 9rem;
+    flex-wrap: wrap;
+}
+
+.parrAfos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    list-style: none;
+    bottom: -60rem;
+    gap: 8rem;
+    flex-wrap: wrap;
+}
+
+.parrAfos li{
+    list-style: none;
+}
+
+
+.soMos p{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 2.2rem;
+    color: aliceblue;
+    width: 27rem;
+    height: 24.5rem;
+    text-align: left ;
+    background-color: rgba(0, 0, 0, 0.574);
+    border-radius: 2rem;
+    padding: 20px 38px;
+    flex-wrap: wrap;
+}
+
+.imgsTexto{
+    background-image: url("../assets/img/Rectangle\ 44.png");
+    width: 100%;
+    height: 140rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.lucasImagen{ 
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+    left: 180px;
+    top: 40px;
+    flex-wrap: wrap;
+}
+
+.texTolucas{
+    position: absolute;
+    left: 50rem;
+    top: 3.5rem;
+    width: 50rem;
+    height: 28rem;
+    background-color: rgba(0, 0, 0, 0.594);
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 3.6rem;
+    color: aliceblue;
+    border-radius: 2rem;
+    padding: 40px 70px;
+    left: 60rem;
+    flex-wrap: wrap;
+}
+
+.pepeImagen{
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+    right: 150px;
+    top: 600px;
+    flex-wrap: wrap;
+}
+
+.pepeTexto{
+    background-color: rgba(0, 0, 0, 0.594);
+    position: absolute;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 3.6rem;
+    color: aliceblue;
+    border-radius: 2rem;
+    padding: 50px 70px;
+    width: 50rem;
+    height: 28rem;
+    left: 10rem;
+    top: 38rem;
+    flex-wrap: wrap;
+}
+
+.joseImagen{
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+    left: 180px;
+    top: 1150px;
+    flex-wrap: wrap;
+}
+
+
+.joseTexto{
+    position: absolute;
+    left: 70rem;
+    top: 73rem;
+    width: 50rem;
+    height: 28rem;
+    background-color: rgba(0, 0, 0, 0.594);
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 3.6rem;
+    color: aliceblue;
+    border-radius: 2rem;
+    padding: 20px 65px;
+    justify-content:space-around;
+    left: 60rem;
+    flex-wrap: wrap;
+}
+
+
+.andreaImagen{
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+    right: 150px;
+    top: 1710px;
+}
+
+.andreTexto{
+    background-color: rgba(0, 0, 0, 0.594);
+    position: absolute;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 3.6rem;
+    color: aliceblue;
+    border-radius: 2rem;
+    padding: 50px 70px;
+    width: 50rem;
+    height: 28rem;
+    left: 10rem;
+    top: 108rem;
+    flex-wrap: wrap;
+}
+
+
+.doNaciones {
+    width: 100%;
+    height: 130rem;
+    background-image: url("../assets/img/Rectangle\ 34\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    flex-wrap: wrap;
+}
+
+.tituloDonar{
+    font-family: "Judson", sans-serif;
+    font-size: 6rem;
+    position: relative;
+    text-align: center;
+    width: 90rem;
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.454);
+    color: aliceblue;
+    top:5rem;
+    padding: 20px 50px;
+    border-radius: 2.5rem;
+    right: -240px;
+    flex-wrap: wrap;
+}
+
+.textoDonar{
+    right: -240px;
+    font-size: 5rem;
+    position: relative;
+    text-align: center;
+    width: 90rem;
+    height: 28rem;
+    background-color: rgba(0, 0, 0, 0.454);
+    color: aliceblue;
+    border-radius: 5rem;
+    padding: 30px 38px;
+    top: 14rem;
+    flex-wrap: wrap;
+}
+
+button{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    position: absolute;
+    background-color: orange;
+    color: aliceblue;
+    display: block;
+    padding: 2rem 8rem;
+    border-radius: 10rem 10rem;
+    box-shadow: 0.3125rem 0.3125rem 0.625rem black;
+    left: 770px;
+    bottom: -250px;
+    flex-wrap: wrap;
+}
+
+
+
+.paYpal{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 11.6rem;
+    height: 6rem;
+    top: 430px;
+    left: 695px;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
+.merCado{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 6rem;
+    top: 335px;
+    left: 846px;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
+.viSa{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 6rem;
+    top: 239px;
+    left: 1000px;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.botoNsugerencia{
+    position: relative;
+    bottom: -1700px;
+    left: 815px;
+    width: 5rem;
+    height: 1rem;
+    padding: 50px 120.5px;
+    border-radius: 10rem 10rem;
+    box-shadow: 0.3125rem 0.3125rem 0.625rem black;
+    flex-wrap: wrap;
+
+}
+
+.botoNsugerencia img{
+    position: absolute;
+    top: -2px;
+    left: 3.5rem;
+    flex-wrap: wrap;
+}
+
+.sugeRencias{
+    background-image: url("../assets/img/perronaranja.jpg");
+    width: 100%;
+    height: 140rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    flex-wrap: wrap;
+}
+
+
+.tituLosugerencia{
+    width: 1000.3px;
+    height: 200px;
+    position: relative;
+    font-size: 7rem;
+    border-radius: 4rem;
+    font-family: "Judson", sans-serif;
+    background-color: rgb(239, 168, 37);
+    color: aliceblue;
+    padding: 40px 70px;
+    left: 460px;
+    top: 100px;
+    flex-wrap: wrap;
+}
+
+.tituLosugerencia2{
+    position: absolute;
+    font-size: 4.5rem;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 500px;
+    left: 380px;
+    top: 700px;
+    padding: 40px 40px;
+    border-radius: 5rem;
+    background-color: rgba(0, 0, 0, 0.434);
+    font-family: "Roboto Flex", sans-serif;
+    color: aliceblue
+    
+}
+
+label{
+    background-color: rgba(0, 0, 0, 0.458);
+    width: 450px;
+    height: 60px;
+    position: absolute;
+    font-size: 2.5rem;
+    text-align: center;
+    left: 455px;
+    bottom: -520px;
+    border-radius: 2rem;
+    color: aliceblue;
+    padding: 5px 15px;
+    flex-wrap: wrap;
+}
+
+
+textarea{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    position: absolute;
+    flex-wrap: wrap;
+    border-radius: 4rem;
+    width: 1000px;
+    height: 500px;
+    left: 455px;
+    bottom: -1050px
+}
+
+@media (max-width:744px){
+    .encabezado{
+        display: flex;
+        width: 100%;
+        height: 4rem;
+    }
+    .encabezado p{
+        position: absolute;
+        top: 10px;
+        left: 7px;
+        font-size: 2.5rem
+        
+    }
+    .naVbar{
+        display: flex;
+        flex-direction: row;
+        right: -14rem;
+        position: relative;
+        gap: 0.9rem;
+        bottom: 30px;
+        font-size: 1.4rem
+        
+    }
+    .tituloYSubtitulo img{
+        width: 100%;
+        height: 27rem;
+    }
+
+
+.tituloYSubtitulo h1{
+    position: absolute;
+    font-size: 3rem;
+    bottom: 34rem;
+    right: 1.5rem  ;
+}
+.tituloYSubtitulo h2{
+    position: absolute;
+    font-size: 1.7rem;
+    bottom: 31rem;
+    right: 1rem  ;
+}
+
+.sectionParrafoUno{
+    position: absolute;
+    width: 100%;
+        height: 30rem;
+    top: 30rem;
+}
+.sectionParrafoUno h2{
+    font-size: 2.5rem;
+    bottom: 5px;
+    left: 1.2rem;
+    width: 27rem;
+}
+
+
+.parrAfouno{
+    position: relative;
+    font-size: 1.7rem;
+    top: -52rem;
+    left: 1rem  ;
+    width: 20rem;
+    height: 8rem;
+    padding: 13px 10px;
+    border-radius: 1rem;
+}
+
+.parrAfodos{
+    position: relative;
+    font-size: 1.7rem;
+    top: -50rem;
+    left: 1rem  ;
+    width: 20rem;
+    height: 7rem;
+    padding: 20px 10px;
+    border-radius: 1rem;
+}
+
+
+.conFiarr{
+    position: absolute;
+    width: 100%;
+        height: 35rem;
+    bottom: -43rem;
+}
+
+
+.conFiarr h2{
+    font-size: 2rem;
+    top: -4px;
+    left: 1.6rem;
+    width: 40.5rem;
+    height: 5rem;
+}
+
+
+.conFiarr2 img{
+    text-align: center;
+    width: 10rem;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    bottom: 13rem;
+    left: 1.2rem;
+}
+
+.conFiar p{
+    position: relative;
+    display: flex;
+    top: -180px;
+    font-size: 1rem;
+    width: 12rem;
+    height: 8rem;
+    text-align: left ;
+    border-radius: 0.5rem;
+    padding: 16px 17px;
+    right: -0.1rem;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 16.8rem;
+    top: 20rem;
+    gap: 0rem;
+}
+
+
+footer h2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    top: -0.1rem;
+    right: 1rem;
+    justify-content: left;
+}
+
+.contActos h2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    top: -0.1rem;
+    right: 0.9rem;
+    justify-content: left;
+}
+
+.reDes h2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    top: -0.1rem;
+    right: 2.4rem;
+    justify-content: left;
+}
+
+.contActos p{
+    align-items: center;
+    text-align: left;
+    font-size: 1rem;
+    position: relative;
+    flex-direction: column;
+    width: 13rem;
+    height: 1px;
+    top: -22px;
+    left: 10px;
+}
+
+.contActos img{
+    width: 5%;
+    height: 5%;
+    display: flex;
+    position: relative;
+justify-content: center;
+    gap: 10rem;
+    top: 15px;
+    left: 20px;
+}
+
+
+.reDes p{
+    align-items: center;
+    text-align: left;
+    font-size: 1rem;
+    position: relative;
+    flex-direction: column;
+    width: 20rem;
+    height: 1px;
+    top: -40px;
+    left: -5px;
+
+}
+
+.reDes img{
+    width: 5%;
+    height: 5%;
+    position: relative;
+    top: 5px;
+    left: -10px;
+
+}
+.soMos {
+    width: 100%;
+    height: 120rem;
+}
+
+.soMos h2{
+    font-family: "Judson", sans-serif;
+    text-align: center;
+    font-size: 8rem;
+    top: 10rem;
+}
+
+.soMos h3{
+    font-family: "Judson", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    top: 12rem;
+    flex-wrap: wrap;
+}
+
+.parrAfos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 2rem;
+}
+
+.soMos p{
+    display: flex;
+    font-size: 1.2rem;
+    width: 12rem;
+    height: 17rem;
+    padding: 20px 20px;
+}
+
+.imgsTexto{
+    width: 100%;
+    height: 140rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+
+}
+
+.lucasImagen{ 
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+    left: 18px;
+    top: 8px;
+
+}
+
+.texTolucas{
+    position: absolute;
+    left: 10rem;
+    top: 15rem;
+    width: 20rem;
+    height: 10rem;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    padding: 18px 34px;
+    left: 2rem;
+
+}
+
+.pepeImagen{
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+    left: 18px;
+    top: 700px;
+
+}
+
+.pepeTexto{
+    position: absolute;
+    left: 10rem;
+    top: 1000px;
+    width: 20rem;
+    height: 10rem;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    padding: 18px 34px;
+    left: 2rem;
+
+}
+
+.joseImagen{
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+    left: 18px;
+    top: 1200px;
+}
+
+
+.joseTexto{
+    position: absolute;
+    left: 10rem;
+    top: 1500px;
+    width: 20rem;
+    height: 10rem;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    padding: 18px 34px;
+    left: 2rem;
+}
+
+
+.andreaImagen{
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+    left: 18px;
+    top: 1700px;
+}
+
+.andreTexto{
+    position: absolute;
+    left: 10rem;
+    top: 2000px;
+    width: 20rem;
+    height: 10rem;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    padding: 18px 34px;
+    left: 2rem;
+}
+
+.doNaciones {
+    width: 100%;
+    height: 130rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.tituloDonar{
+    font-size: 3.5rem;
+    position: relative;
+    text-align: center;
+    width: 40rem;
+    height: 6rem;
+    top:5rem;
+    padding: 15px 50px;
+    border-radius: 2.5rem;
+    left: 60px;
+}
+
+.textoDonar{
+    right: -100px;
+    font-size: 2.3rem;
+    width: 35rem;
+    height: 15rem;
+    padding: 10px 38px;
+    border-radius: 1.5rem;
+    top: 14rem;
+}
+
+button{
+    font-weight: bolder;
+    font-size: 2rem;
+    position: absolute;
+    padding: 1rem 4rem;
+    border-radius: 10rem 10rem;
+    left: 255px;
+    bottom: 50px;
+}
+
+
+
+.paYpal{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 11.6rem;
+    height: 6rem;
+    top: 430px;
+    left: 95px;
+    padding: 20px 40px;
+}
+
+.merCado{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 6rem;
+    top: 335px;
+    left: 265px;
+    padding: 20px 40px;
+}
+
+.viSa{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 6rem;
+    top: 239px;
+    left: 430px;
+    padding: 20px 40px;
+}
+
+
+.botoNsugerencia{
+    position: relative;
+    top: 1150px;
+    left: 270px;
+    width: 3rem;
+    height: 1rem;
+}
+
+.botoNsugerencia img{
+    position: absolute;
+    top: -2px;
+    left: 3.5rem;
+    flex-wrap: wrap;
+}
+
+.sugeRencias{
+    width: 100%;
+    height: 90rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+
+.tituLosugerencia{
+    width: 35rem;
+    height: 6rem;
+    font-size: 3rem;
+    padding: 20px 95px;
+    left: 100px;
+    top: 100px;
+}
+
+.tituLosugerencia2{
+    left: 100px;
+    font-size: 2rem;
+    width: 35rem;
+    height: 15rem;
+    padding: 25px 38px;
+    border-radius: 1.5rem;
+    top: 18rem;
+    
+}
+
+label{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    font-size: 1.3rem;
+    text-align: center;
+    left: 55px;
+    bottom: 20px;
+    border-radius: 2rem;
+    padding: 10px 15px;
+}
+
+
+textarea{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    position: absolute;
+    flex-wrap: wrap;
+    border-radius: 4rem;
+    width: 600px;
+    height: 300px;
+    left: 100px;
+    top: 990px
+}
+
+
+
+}
+
+
+
