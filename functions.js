@@ -1,24 +1,39 @@
-function pedir_num(mensaje) {
-    let num = prompt(mensaje);
-    if (num == null)
+function añadirTarea(text, fecha = null) {
+    const taskList = document.getElementById('taskLista');
+    const li = document.createElement('li');
 
-        return null;
-    num = parseInt(num);
-    if (isNaN(num) || num < 0) {
-        alert("Entrada no válida, ingrese un número.");
-        return pedir_num(mensaje);
+    if (!fecha) {
+        const fechaCreacion = new Date();
+        fecha = fechaCreacion.toLocaleDateString() + ' ' + fechaCreacion.toLocaleTimeString();
     }
-    return num;
+
+    li.textContent = `${text} (Creada el: ${fecha})`;
+    li.setAttribute('data-fecha', fecha);
+
+    const borrarBtn = document.createElement('button');
+    borrarBtn.textContent = 'Eliminar';
+    borrarBtn.classList.add('borrar');
+
+    borrarBtn.addEventListener('click', () => {
+        taskList.removeChild(li);
+        guardarTareas();
+    });
+
+    li.appendChild(borrarBtn);
+    taskList.appendChild(li);
 }
 
-function pedir_texto(mensaje) {
-    let texto = prompt(mensaje);
-    if (texto == null)
+function guardarTareas() {
+    const tareas = [];
+    document.querySelectorAll('#taskLista li').forEach(li => {
+        const texto = li.firstChild.textContent.split(' (Creada el: ')[0].trim();
+        const fecha = li.getAttribute('data-fecha');
+        tareas.push({texto, fecha});
+    });
+    localStorage.setItem('tareas', JSON.stringify(tareas));
+}
 
-        return null;
-    if (!isNaN(texto)) {
-        alert("Entrada no válida, ingrese letras.");
-        return pedir_texto(mensaje);
-    }
-    return texto;
+function cargarTareas() {
+    const tareasGuardadas = JSON.parse(localStorage.getItem('tareas')) || [];
+    tareasGuardadas.forEach(tarea => añadirTarea(tarea.texto, tarea.fecha));
 }
