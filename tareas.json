@@ -1,0 +1,17 @@
+[
+    {
+        "texto": "Comprar comida",
+        "fecha": "16/11/2024 10:45:03",
+        "prioridad": "alta"
+    },
+    {
+        "texto": "Limpiar la casa",
+        "fecha": "19/11/2024 12:13:20",
+        "prioridad": "media"
+    },
+    {
+        "texto": "Comprar lápiz",
+        "fecha": "18/11/2024 11:31:12",
+        "prioridad": "baja"
+    }
+]
